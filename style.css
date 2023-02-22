@@ -1,0 +1,93 @@
+/* utilisation de la police roboto */ 
+body{
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto;
+}
+/* style de la barre de navigation */
+.menu ul{
+    background-color: black;
+    width: 1500px;
+    height: 90px;
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu li{
+    position: relative;
+    list-style: none;
+    justify-content: space-around;
+    float: left; 
+    padding: 5px;
+    word-spacing: 20px;
+}
+
+
+.menu a{
+    text-decoration: none;
+    text-align: center; 
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+.menu ul a:hover{
+    color: yellow;
+    
+}
+/* style pour les differents section de notre page */ 
+.section1{
+    color: black; 
+    text-align: center;
+    
+}  
+
+.section1 h2{
+    text-align: center;
+} 
+
+
+
+
+  
+.section2{
+    color: black;
+    
+}
+.section2 p{
+    
+color: black; 
+text-align: center;
+} 
+.section2 p{
+text-align: right right;
+} 
+.section2 h2{
+    text-align: center;
+} 
+
+  
+.section3{
+    color: black;
+}
+.section3 p{
+    text-align: center; 
+    color: black;
+}
+.section3 h2{
+    text-align: center;
+} 
+
+
+.section4{
+    color: black;
+} 
+.section4 h2{
+    text-align: center;
+}
+.section5{
+    color: black;
+} 
+.section5 h2{
+    text-align: center;
+}
